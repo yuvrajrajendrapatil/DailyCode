@@ -1,0 +1,22 @@
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+       int num1,num2;
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter Num1");
+       num1 = sc.nextInt();
+       System.out.println("Enter Num2");
+       num2 = sc.nextInt();
+       if(num1>num2)
+       {
+        System.out.println("Num1 : "+num1+ " Is Greater than Num2 : "+num2);   
+       }
+       else{
+           System.out.println("Num2 : "+num2+ " Is Greater than Num1 : "+num1);  
+       }
+       
+       
+    }
+}
