@@ -9,7 +9,7 @@ class Main {
         startRange  = sc.nextInt();
         System.out.println("End");
         endRange= sc.nextInt();
-       System.out.println( ( ((endRange + 1) * endRange)/2) -   ( ((startRange + 1) * startRange)/2)               );
+       System.out.println( ( ((endRange + 1) * endRange)/2) -   ( ((startRange + 1) * startRange)/2)   +startRange             );
             
         }
 }
